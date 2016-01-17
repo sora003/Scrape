@@ -57,7 +57,6 @@ public class Scrape {
             matcher = pattern.matcher(str1);
             while (matcher.find()){
             	System.out.println(matcher.group(8)+"	"+matcher.group(2)+"	"+matcher.group(4));
-//            	System.out.println(matcher.groupCount());
             }
         }
         
